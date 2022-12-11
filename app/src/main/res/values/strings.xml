@@ -23,6 +23,8 @@
     <string name="TelefonoLugar">Telefono (9999-9999)</string>
     <string name="WebLugar">Web</string>
     <string name="btAddLugar">Agregar Lugar</string>
+    <string name="btUpdateLugar">Actualizar Lugar</string>
+    <string name="btDeleteLugar">Eliminar Lugar</string>
 
     <string name="ms_AddLugar">Lugar Agregado</string>
     <string name="ms_FaltaNombre">Faltan Valores</string>
