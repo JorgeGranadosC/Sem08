@@ -29,5 +29,11 @@
     <string name="ms_AddLugar">Lugar Agregado</string>
     <string name="ms_FaltaNombre">Faltan Valores</string>
 
+    <string name="todo">TODO</string>
+    <string name="msg_imagen">Foto del lugar</string>
+    <string name="msgEscucharAudio">Escuchar Audio</string>
 
+    <string name="msgInicioNotaAudio">Grabando</string>
+    <string name="msgDetieneNotaAudio">Detiene</string>
+    <string name="msgSubiendo">Subiendo los archivos</string>
 </resources>

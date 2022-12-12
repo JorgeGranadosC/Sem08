@@ -49,7 +49,7 @@ class UpdateLugarFragment: Fragment()  {
         val telefono = binding.etTelefono.text.toString()
         val web = binding.etWeb.text.toString()
         if (nombre.isNotEmpty()) {
-            val lugar = Lugar(args.lugarArg.id,nombre, correo, telefono,web)
+            val lugar = Lugar(args.lugarArg.id,nombre, correo, telefono,web,args.lugarArg.rutaAudio,args.lugarArg.rutaImagen)
             homeViewModel.guardarLugar(lugar)
             Toast.makeText(requireContext(), getText(R.string.ms_FaltaNombre), Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.action_updateLugar_Fragment_to_nav_home)
@@ -65,7 +65,7 @@ class UpdateLugarFragment: Fragment()  {
         val telefono = binding.etTelefono.text.toString()
         val web = binding.etWeb.text.toString()
         if (nombre.isNotEmpty()) {
-            val lugar = Lugar(args.lugarArg.id,nombre, correo, telefono,web)
+            val lugar = Lugar(args.lugarArg.id,nombre, correo, telefono,web,args.lugarArg.rutaAudio,args.lugarArg.rutaImagen)
             homeViewModel.eliminarLugar(lugar)
             Toast.makeText(requireContext(), getText(R.string.ms_FaltaNombre), Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.action_updateLugar_Fragment_to_nav_home)

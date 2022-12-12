@@ -10,7 +10,9 @@ data class Lugar(
     val correo: String?,
     val telefono: String?,
     val web: String?,
+    val rutaAudio: String?,
+    val rutaImagen: String?
 ): Parcelable {
     constructor():
-            this("","","","","")
+            this("","","","","","","")
 }
